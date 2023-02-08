@@ -1,4 +1,6 @@
 const ContactInformation = () => {
+    const number = 9876543210;
+    const address = "Lucknow, Uttar Pradesh"
     return (
         <section className="section section-lg pb-0">
             <div className="container">
@@ -11,7 +13,7 @@ const ContactInformation = () => {
                                 </div>
                                 <div>
                                     <h5 className="h6">Call Us</h5>
-                                    <p className="text-muted mb-0">+123 456-78900</p>
+                                    <p className="text-muted mb-0">+91 {number}</p>
                                 </div>
                             </div>
                         </div>
@@ -24,7 +26,7 @@ const ContactInformation = () => {
                                 </div>
                                 <div>
                                     <h5 className="h6">Visit Us</h5>
-                                    <p className="text-muted mb-0">New York, CA N310</p>
+                                    <p className="text-muted mb-0">{address}</p>
                                 </div>
                             </div>
                         </div>
